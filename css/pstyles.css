@@ -1,0 +1,19 @@
+body, header, footer, nav, h1, h2, p, a{
+	border:0;
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: LightBlue;
+}
+/*Header///////////////////////////////////////////////*/
+header h1{
+	font-size:50px;
+}
+header img{
+	width:200px;
+}
+/*NAV//////////////////////////////////////////////////*/
+nav{
+	font-size:30px;
+}
