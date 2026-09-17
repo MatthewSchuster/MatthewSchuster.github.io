@@ -6,15 +6,15 @@
         <title>Matthew's Projects</title>
 		<link rel="stylesheet" href="css/pstyles.css" type="text/css">
     </head>
-    <body style="background-color: LightBlue">
+    <body>
 	<!--things like title of page or logo-->
 		<header>
-			<h1 style="font-size:50px">Projects</h1>
+			<h1>Projects</h1>
 			<img src="images/matthew_at_states.jpg" alt="Matthew wearing a dress shirt with a black tie with blue stripes. He is at the states competition in Columbus." width="200">
 		</header>
 		
 		<!--for navigation-->
-		<nav style="font-size:30px">
+		<nav>
 			<p><a href="index.html">Home</a>&nbsp;|
 			<a href="projects.html">Projects</a>&nbsp;|
 			<a href="about.html">About Me</a>&nbsp;|
@@ -25,10 +25,18 @@
 		
 		<!---->
 		<main>
-			<ul>
-				<li><a href="projects/fitnessch3/index.html" target="_blank">Forward Fitness Club Chapter 3</a></li>
-				<li><a href="projects/fitnessch4/index.html" target="_blank">Forward Fitness Club Chapter 4</a></li>
-			</ul>
+			<div id="projects">
+				<dl>
+					<div id="ffch3">
+					<dt><a href="projects/fitnessch3/index.html" target="_blank"><img src="images/forward_fitness_ch3.png"></a></dt>
+						<dd>Forward Fitness Club Chapter 3</dd>
+					</div>
+					<div id="ffch4">
+					<dt><a href="projects/fitnessch4/index.html" target="_blank"><img src="images/forward_fitness_ch4.png"></a></dt>
+						<dd>Forward Fitness Club Chapter 4</dd>
+					</div>
+				</dl>
+			</div>
 		</main>
 		
 		<!--things like recources, links, copyright...-->

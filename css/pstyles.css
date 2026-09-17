@@ -5,21 +5,75 @@ body, header, footer, nav, h1, h2, p, a{
 }
 
 /*Header/////////////////////////////////////////////*/
+header{
+	float:left;
+}
+
 header h1{
-	font-size:50px;
+	font-size:3em;
 }
+
 header img{
-	width:200px;
+	width:15em;
 }
+
 /*NAV////////////////////////////////////////////////*/
 nav{
-	font-size:30px;
+	font-size: 1.3em;
+	background-color: rgb(143, 286, 200);
+	text-align: right;
+	float: right;
 }
+
+/*Home Page//////////////////////////////////////////*/
+nav table{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+nav th{
+	border: .2em solid black;
+	margin: 0;
+	padding: 1em 0;
+	font-size:1em;
+	background-color:;
+}
+
+nav table a{
+	border:.2em solid rgb(0,200,100);
+	padding: .5em 1em;
+	border-radius: 40% / 100%;
+	clear: both;
+	background-color: rgb(255, 255, 71);
+	text-decoration: none;
+	color: black;
+}
+
 /*Body///////////////////////////////////////////////*/
 body{
 	background-color: LightBlue;
 }
+/*Main///////////////////////////////////////////////*/
+main{
+	clear:left;
+}
 
+/*Projects///////////////////////////////////////////*/
+#projects{
+	
+}
+
+#projects img{
+	height: 14em;
+}
+
+#ffch3, #ffch4{
+	float: left;
+	padding:1em;
+}
+
+
+/*About Me Page//////////////////////////////////////*/
 #certifications ol{
 	list-style-type: none;
 }
@@ -33,5 +87,10 @@ body{
 }
 
 #things-i-like{
+	clear: both;
+}
+
+/*Footer/////////////////////////////////////////////*/
+footer{
 	clear: both;
 }
