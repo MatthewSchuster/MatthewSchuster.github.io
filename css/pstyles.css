@@ -1,4 +1,4 @@
-body, header, footer, nav, h1, h2, p, a{
+body, header, footer, nav, h1, h2, p, a, div, dl, dd, ol, ul, img, table, th, tr, td, iframe, li{
 	border:0;
 	margin:0;
 	padding:0;
@@ -19,27 +19,43 @@ header img{
 
 /*NAV////////////////////////////////////////////////*/
 nav{
-	font-size: 1.3em;
+	font-size: 2em;
+	padding: .7em 0 0 0;
 	background-color: rgb(143, 286, 200);
 	text-align: right;
-	float: right;
+	text-decoration:none;
+}
+
+nav a{
+	text-decoration:none;
+	color:rgb(0, 81, 255);
 }
 
 /*Home Page//////////////////////////////////////////*/
-nav table{
+#home{
+	clear:both;
+	text-align: left;
 	border-collapse: collapse;
 	width: 100%;
+	background-color: lightblue;
+}
+#home ul{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin: 2em 0;
 }
 
-nav th{
+#home li{
 	border: .2em solid black;
-	margin: 0;
-	padding: 1em 0;
+	display: inline-block;
+	margin: 0 2.3em;
+	padding: 1em;
 	font-size:1em;
-	background-color:;
+	background-color:rgb(143, 286, 200);
 }
 
-nav table a{
+#home a{
 	border:.2em solid rgb(0,200,100);
 	padding: .5em 1em;
 	border-radius: 40% / 100%;
@@ -52,6 +68,8 @@ nav table a{
 /*Body///////////////////////////////////////////////*/
 body{
 	background-color: LightBlue;
+	margin:0 auto;
+	width:1500px;
 }
 /*Main///////////////////////////////////////////////*/
 main{
@@ -59,17 +77,18 @@ main{
 }
 
 /*Projects///////////////////////////////////////////*/
-#projects{
+/* #projects{
 	
-}
+} */
 
 #projects img{
 	height: 14em;
 }
-
-#ffch3, #ffch4{
+/*Pop out when hovering over*/
+#ffch3, #ffch4, #project01-02, #project01-04, #flowers1, #flowers2{
 	float: left;
 	padding:1em;
+	width:10%;
 }
 
 
@@ -79,7 +98,6 @@ main{
 }
 
 #certifications img{
-	display: inline-block;
 	float: left;
 	width: 31%;
 	padding: .5em;
