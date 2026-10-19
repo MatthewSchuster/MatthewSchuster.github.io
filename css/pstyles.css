@@ -171,6 +171,10 @@ figure:hover {
 	margin-left: 3em;
 }
 
+#things-i-like h2{
+	font-size: 30pt;
+}
+
 #things-i-like dt{
 	font-size: 20pt;
 }
@@ -182,7 +186,7 @@ figure:hover {
 }
 
 #things-i-like li{
-	font-size: 15pt;
+	font-size: 25pt;
 	font-weight: bold;
 }
 
