@@ -104,6 +104,7 @@ figure {
 	transition: margin-right 0.3s ease-in-out;
 	/* margin-left: -3%; */
 	max-width: 100%;
+	width: 100%;
 	/* float: inherit; */
 }
 
@@ -195,6 +196,13 @@ figure:hover {
 	font-size: 15pt;
 	font-weight: normal;
 	margin-left: 3em;
+}
+
+/*Contact Me Page////////////////////////////////////*/
+iframe{
+	width: 50%;
+	height: 50em;
+	margin-left: 25%;
 }
 
 /*Footer/////////////////////////////////////////////*/
