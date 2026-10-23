@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
         <title>Matthew's Projects</title>
 		<link rel="stylesheet" href="css/pstyles.css" type="text/css">
-		<meta name="viewport">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
@@ -14,7 +14,10 @@
 	<!--things like title of page or logo-->
 		<header>
 			<h1>Projects</h1>
-			<img src="images/matthew_at_states.jpg" alt="Matthew wearing a dress shirt with a black tie with blue stripes. He is at the states competition in Columbus." width="200">
+			<figure id="header-pic">
+				<img src="images/matthew_at_states.jpg" alt="Matthew wearing a dress shirt with a black tie with blue stripes. He is at the states competition in Columbus.">
+				<figcaption><h1>You want it, I'll make it.</h1></figcaption>
+			</figure>
 		</header>
 		
 		<!--for navigation-->
@@ -31,8 +34,8 @@
 		
 		<!---->
 		<main>
-			<div id="projects">
-				<div id="html-and-css">
+			<article id="projects">
+				<section id="html-and-css">
 					<h2>HTML/CSS Projects:</h2>
 					<figure id="ffch3">
 						<a href="projects/htmlcss/fitnessch3/index.html" target="_blank"><img src="images/forward_fitness_ch3.png"></a>
@@ -50,8 +53,12 @@
 						<a href="projects/htmlcss/fitnessch6/index.html" target="_blank"><img src="images/forward_fitness_ch4.png"></a>
 							<figcaption>Forward Fitness Club Chapter 6</figcaption>
 					</figure>
-				</div>
-				<div id="javascript">
+					<figure id="ffch7">
+						<a href="projects/htmlcss/fitnessch7/index.html" target="_blank"><img src="images/forward_fitness_ch4.png"></a>
+							<figcaption>Forward Fitness Club Chapter 7</figcaption>
+					</figure>
+				</section>
+				<section id="javascript">
 					<h2>Javascript Projects:</h2>
 					<figure id="flowers2-1">
 						<a href="projects/javascript/js_flower_project/js01.html" target="_blank"><img src="images/flowers_project.png"></a>
@@ -69,6 +76,10 @@
 						<a href="projects/javascript/project01-04/project01-04.html" target="_blank"><img src="images/project01-04.png"></a>
 							<figcaption>Javascript Chapter 1, Project 4</figcaption>
 					</figure>
+					<figure id="photography">
+						<a href="projects/javascript/pphotography/js02.html" target="_blank"><img src="images/photography.png"></a>
+							<figcaption>Javascript Chapter 1, Project 4</figcaption>
+					</figure>
 					<figure id="project02-03">
 						<a href="projects/javascript/project02-03/project02-03.html" target="_blank"><img src="images/project02-03.png"></a>
 							<figcaption>Javascript Chapter 2, Project 3</figcaption>
@@ -77,8 +88,8 @@
 						<a href="projects/javascript/project02-04/project02-04.html" target="_blank"><img src="images/project02-04.png"></a>
 							<figcaption>Javascript Chapter 2, Project 4</figcaption>
 					</figure>
-				</div>
-			</div>
+				</section>
+			</article>
 		</main>
 		
 		<!--things like recources, links, copyright...-->
