@@ -43,10 +43,6 @@ nav a{
 
 /*Home Page//////////////////////////////////////////*/
 #home{
-	clear:both;
-	text-align: left;
-	border-collapse: collapse;
-	width: 100%;
 	background-color: lightblue;
 }
 #home ul{
@@ -150,12 +146,22 @@ iframe{
 	margin-left: 25%;
 }
 
+/*Favorites Page/////////////////////////////////////*/
+#favorites{
+	margin: 0 1em;
+}
+
+#favorites dd{
+	display: none;
+}
+
 /*Footer/////////////////////////////////////////////*/
 footer{
 	clear: both;
 }
 /*Tablet/////////////////////////////////////////////*/
 @media (min-width:600px){
+	/*Projects Page/////////////////////////////////*/
 	#projects{
 		display: grid;
 		grid-template-columns: auto auto;
@@ -180,6 +186,19 @@ footer{
 	#flowers2-1{
 		margin-top: 0;
 	} 
+
+	/*Favorites Page/////////////////////////////////////*/
+	#favorites{
+		margin: 0 3em;
+	}
+
+	#favorites dd{
+		margin: .5em 3em;
+	}
+
+	#favorites dd{
+		display: block;
+	}
 }
 /*Small desktop//////////////////////////////////////*/
 @media (min-width:900px){
@@ -213,6 +232,10 @@ footer{
 	#certifications img:hover{
 		width: 30%;
 		padding: .5em;
+	}
+
+	.touchscreen{
+		display: none;
 	}
 }
 
