@@ -155,6 +155,9 @@ iframe{
 	display: none;
 }
 
+video{
+	width: 100%;
+}
 /*Footer/////////////////////////////////////////////*/
 footer{
 	clear: both;
@@ -236,6 +239,11 @@ footer{
 
 	.touchscreen{
 		display: none;
+	}
+
+	/*Favorites Page/////////////////////////////////*/
+	video{
+		max-width: 50%;
 	}
 }
 
