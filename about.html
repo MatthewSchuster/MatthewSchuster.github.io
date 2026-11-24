@@ -13,15 +13,29 @@
     <body>
 	
 	<!--things like title of page or logo-->
-		<header>
+		<header class="header">
 			<h1 style="font-size:50px">About Me</h1>
 			<figure id="header-pic">
 				<img src="images/matthew_at_states.jpg" alt="Matthew wearing a dress shirt with a black tie with blue stripes. He is at the states competition in Columbus.">
 			</figure>
 		</header>
+
+		<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="projects.html">About Us</a>
+					<a href="about.html">Classes</a>
+					<a href="contact.html">Nutrition</a>
+					<a href="favorites.html">Contact Us</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
 		
-		<!--for navigation-->
-		<nav>
+		<!--desktop navigation-->
+		<nav class="desktop">
 			<ul>
 				<li><a href="index.html">Home</a>&nbsp;</li>
 				<li><a href="projects.html">Projects</a>&nbsp;</li>
@@ -123,5 +137,6 @@
 			<p>&copy; Copyright 2026. All Rights Reserved.</p>
 			<p>Email: <a href="mailto:matthew.schuster@stu.cvccworks.edu">matthew.schuster@stu.cvccworks.edu</a></p>
 		</footer>
+		<script src="scripts/script.js"></script>
     </body>
 </html>

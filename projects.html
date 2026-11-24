@@ -12,16 +12,30 @@
     </head>
     <body>
 	<!--things like title of page or logo-->
-		<header>
+		<header class="header">
 			<h1>Projects</h1>
 			<figure id="header-pic">
 				<img src="images/matthew_at_states.jpg" alt="Matthew wearing a dress shirt with a black
 				 tie with blue stripes. He is at the states competition in Columbus.">
 			</figure>
 		</header>
+
+		<!-- Mobile Nav -->
+			<nav class="mobile-nav">
+				<div id="menu-links">
+					<a href="index.html">Home</a>
+					<a href="projects.html">About Us</a>
+					<a href="about.html">Classes</a>
+					<a href="contact.html">Nutrition</a>
+					<a href="favorites.html">Contact Us</a>
+				</div>
+				<a class="menu-icon" onclick="hamburger()">
+					<div>&#9776;</div>
+				</a>
+			</nav>
 		
-		<!--for navigation-->
-		<nav>
+		<!--desktop navigation-->
+		<nav class="desktop">
 			<ul>
 				<li><a href="index.html">Home</a>&nbsp;</li>
 				<li><a href="projects.html">Projects</a>&nbsp;</li>
@@ -64,6 +78,10 @@
 					<figure id="ffch9">
 						<a href="projects/htmlcss/fitnessch9/index.html" target="_blank"><img src="images/forward_fitness_ch4.png"></a>
 							<figcaption>Forward Fitness Club Chapter 9</figcaption>
+					</figure>
+					<figure id="ffch10">
+						<a href="projects/htmlcss/fitnessch10/index.html" target="_blank"><img src="images/forward_fitness_ch4.png"></a>
+							<figcaption>Forward Fitness Club Chapter 10</figcaption>
 					</figure>
 				</section>
 				<section id="javascript">
@@ -117,5 +135,6 @@
 			<p>&copy; Copyright 2026. All Rights Reserved.</p>
 			<p>Email: <a href="mailto:matthew.schuster@stu.cvccworks.edu">matthew.schuster@stu.cvccworks.edu</a></p>
 		</footer>
+		<script src="scripts/script.js"></script>
     </body>
 </html>

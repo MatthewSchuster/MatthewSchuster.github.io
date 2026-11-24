@@ -41,6 +41,33 @@ nav a{
 	text-decoration: none;
 }
 
+.desktop{
+	display: none;
+}
+
+/*Hambuger Menu//////////////////////////////////////*/
+.mobile-nav{
+	float: right;
+}
+.mobile-nav a.menu-icon{
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.mobile-nav a.menu-icon:hover{
+	cursor: pointer;
+}
+
+#menu-links{
+	display: none;
+}
+
+#menu-links a{
+	display: block;
+}
+
 /*Home Page//////////////////////////////////////////*/
 #home{
 	background-color: lightblue;
@@ -164,6 +191,14 @@ footer{
 }
 /*Tablet/////////////////////////////////////////////*/
 @media (min-width:600px){
+	.desktop{
+		display: block;
+	}
+
+	.mobile-nav{
+		display: none;
+	}
+
 	/*Projects Page/////////////////////////////////*/
 	#projects{
 		display: grid;
